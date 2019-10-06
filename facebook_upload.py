@@ -35,7 +35,7 @@ driver.implicitly_wait(7)
 driver.get('https://www.facebook.com/pg/%EB%B2%84%EC%8A%A4-%EC%A0%95%EB%A5%98%EC%9E%A5-%ED%9D%A1%EC%97%B0-%ED%86%B5%EA%B3%84-%EC%95%8C%EB%A6%BC-103071191104097/posts/?ref=page_internal')
 driver.implicitly_wait(7)
 
-article = '안녕하세요. 테스트 문장입니다.'
+article = '2019년 10월 5일 버스 정류장 흡연 감지 통계입니다.\n1.(성동구) 뚝섬서울숲(응봉사거리 방면) 12건'
 
 
 driver.find_element_by_class_name('_3hvt').click()
